@@ -15,12 +15,17 @@
       font-size: 18px;
       margin: 50px auto;
     }
+    .cart-items::-webkit-scrollbar {
+      display: none;
+    }
   
     .cart-items {
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      // overflow: scroll;
+      // overflow: hidden;
+      overflow-y: scroll;
     }
   
     button {
